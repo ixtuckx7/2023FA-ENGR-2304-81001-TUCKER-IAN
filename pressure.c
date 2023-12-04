@@ -11,7 +11,7 @@ int pressure = 0;
 int leds[] = {13, 12, 8, 4}; // array of LED pin numbers
 
 // I2C LCD Configuration
-LiquidCrystal_I2C lcd(0x27, 16, 2);  // Set the I2C address of your LCD module, adjust if needed
+LiquidCrystal_I2C lcd(0x20, 20, 4);  // Set the I2C address of your LCD module, adjust if needed
 
 void setup() {
   Serial.begin(9600);
